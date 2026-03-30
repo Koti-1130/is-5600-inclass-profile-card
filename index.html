@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+
+  <!-- IMAGE -->
+  <div class="image-section">
+    <img src="https://via.placeholder.com/150" alt="Profile">
+  </div>
+
+  <!-- INFO -->
+  <div class="info-section">
+    <h2 id="name">John Doe</h2>
+    <p id="title">Web Developer</p>
+    <p id="bio">Passionate about building responsive web apps.</p>
+
+    <p><strong>Hobby:</strong> <span id="hobby">None</span></p>
+    <p><strong>Views:</strong> <span id="views">0</span></p>
+
+    <!-- INPUT -->
+    <input type="text" id="inputName" placeholder="Enter new name">
+    <button id="updateBtn">Update Name</button>
+
+    <!-- BUTTONS -->
+    <button id="hobbyBtn">Random Hobby</button>
+    <button id="viewBtn">Increase Views</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
